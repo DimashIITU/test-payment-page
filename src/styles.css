@@ -1,0 +1,147 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+form {
+  margin: 30px auto 0;
+  max-width: 400px;
+}
+input {
+  background: radial-gradient(circle at 100% 100%, #242424 0, #242424 7px, transparent 7px) 0% 0%/8px
+      8px no-repeat,
+    radial-gradient(circle at 0 100%, #242424 0, #242424 7px, transparent 7px) 100% 0%/8px 8px
+      no-repeat,
+    radial-gradient(circle at 100% 0, #242424 0, #242424 7px, transparent 7px) 0% 100%/8px 8px
+      no-repeat,
+    radial-gradient(circle at 0 0, #242424 0, #242424 7px, transparent 7px) 100% 100%/8px 8px
+      no-repeat,
+    linear-gradient(#242424, #242424) 50% 50% / calc(100% - 2px) calc(100% - 16px) no-repeat,
+    linear-gradient(#242424, #242424) 50% 50% / calc(100% - 16px) calc(100% - 2px) no-repeat,
+    linear-gradient(135deg, #62daea 0%, #cecd71 50%);
+  border-radius: 8px;
+  padding: 12px;
+  box-sizing: content-box;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0px 0px 30px 0px;
+  width: 100%;
+  justify-content: space-between;
+}
+.front {
+  position: relative;
+  transform: rotateY(0deg);
+  background-color: red;
+}
+.back {
+  position: relative;
+  transform: rotateY(180deg);
+  background-color: yellow;
+}
+.rccs__card {
+  height: 182.873px;
+  margin-top: 10;
+  margin-bottom: 10;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  width: 290px;
+
+  /* background: linear-gradient(
+   25deg
+, #986, #234); */
+}
+
+.front1 {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: red;
+}
+
+.back1 {
+  transform: rotateY(360deg);
+  margin-bottom: 30px !important;
+  background-color: yellow;
+}
+.App-cards-list {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.App-cards-list > * {
+  transform: scale(0.8);
+  margin-bottom: 30px !important;
+}
+
+.back3 {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: red;
+}
+/* rccs-signature-background: repeating-linear-gradient(
+  0.1deg,
+  #fff 20%,
+  #fff 40%,
+  #fea 40%,
+  #fea 44%,
+  #fff 44%
+);
+rccs-default-background: linear-gradient(25deg, #d32121, #178a63);
+rccs-unknown-background: linear-gradient(25deg, rgb(160, 18, 101), #999);
+rccs-background-transition: 0.5s;
+rccs-animate-background: true; */
+
+.rccs__card--unknown > div {
+  background: transparent;
+}
+.rccs__card--unknown {
+  background-color: transparent !important;
+}
+.rccs__card--front {
+  background: rgb(98, 218, 234) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(98, 218, 234, 0.502305145691089) 50%,
+    rgba(206, 205, 113, 1) 100%
+  ) !important;
+}
+.rccs__card--back {
+  background: rgb(98, 218, 234) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(98, 218, 234, 0.502305145691089) 50%,
+    rgba(206, 205, 113, 1) 100%
+  ) !important;
+}
+.sum {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0px 0px 30px 0px;
+}
+.sum span {
+  font-weight: 700;
+}
+.error {
+  color: red;
+  font-weight: 700;
+  font-size: 21px;
+  margin: 0px 0px 30px 0px;
+}
+.check_container {
+  display: flex;
+  gap: 10px;
+}
+.t-a-l {
+  text-align: left;
+}
